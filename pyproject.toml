@@ -1,6 +1,6 @@
 [project]
 name = "django-migrations-ruff-formatter"
-version = "0.1.0"
+version = "0.1.1"
 description = "patch the migration maker to use ruff if available"
 
 readme = "README.md"
