@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+#muh secrets
+.pypi_token
