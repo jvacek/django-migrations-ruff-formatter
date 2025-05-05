@@ -1,0 +1,1 @@
+Add to INSTALLED APPS

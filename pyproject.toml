@@ -1,0 +1,35 @@
+[project]
+name = "django-migrations-ruff-formatter"
+version = "0.1.0"
+description = "patch the migration maker to use ruff if available"
+
+readme = "README.md"
+
+# version = "2.0.0a"
+license = { file = "LICENSE" }
+
+requires-python = ">=3.9"
+dependencies = ["ruff>=0.9.0"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[dependency-groups]
+dev = ["coverage[toml]>=6,<7", "django>=4.2"]
+
+[tool.ruff]
+line-length = 120
