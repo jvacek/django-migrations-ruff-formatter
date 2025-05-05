@@ -25,6 +25,14 @@ INSTALLED_APPS = [
 ]
 ```
 
+The patcher just invokes `ruff format *migrations` and `ruff check --fix *migrations`. This means it picks up your ruff config from your project.
+
+You can pass extra args to `ruff` by setting `RUFF_EXTRA_FORMAT_ARGS` or `RUFF_EXTRA_LINT_ARGS` in your django settings. For example:
+
+```python
+RUFF_EXTRA_FORMAT_ARGS=["--force-exclude"]
+```
+
 ## Use
 
 Just like before:
