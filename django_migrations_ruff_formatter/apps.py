@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class MigrationsFormatter(AppConfig):
+class RuffFormatter(AppConfig):
     name = "django_migrations_ruff_formatter"
